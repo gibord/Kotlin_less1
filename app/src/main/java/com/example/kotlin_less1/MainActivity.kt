@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
             override fun onClick(v: View?) {
             }
         } )
-
+val dataClass1= Note("Повесть", "Плохая", R.color.white)
+        val dataClass2=dataClass1.copy( "Игра")
 
     }
 }
